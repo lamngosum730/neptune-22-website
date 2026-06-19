@@ -397,6 +397,18 @@ p {
   border-radius: 6px;
 }
 
+.project-link {
+  display: inline-flex;
+  margin-top: 6px;
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
 .activity {
   background: #f8fbfc;
 }
