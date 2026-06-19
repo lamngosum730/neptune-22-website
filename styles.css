@@ -39,8 +39,8 @@ img {
   justify-content: space-between;
   gap: 24px;
   padding: 14px clamp(18px, 5vw, 72px);
-  background: rgba(255, 255, 255, 0.94);
-  border-bottom: 1px solid var(--line);
+  background: rgba(6, 40, 74, 0.96);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(12px);
 }
 
@@ -51,6 +51,7 @@ img {
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 0;
+  color: var(--white);
 }
 
 .brand img {
@@ -63,7 +64,7 @@ img {
   display: flex;
   align-items: center;
   gap: 28px;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.82);
   font-size: 15px;
   font-weight: 700;
 }
@@ -73,15 +74,15 @@ img {
 }
 
 .site-nav a:hover {
-  color: var(--blue);
+  color: var(--cyan);
 }
 
 .nav-toggle {
   display: none;
   width: 42px;
   height: 42px;
-  border: 1px solid var(--line);
-  background: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 6px;
   padding: 9px;
 }
@@ -90,7 +91,7 @@ img {
   display: block;
   height: 2px;
   margin: 5px 0;
-  background: var(--ink);
+  background: var(--white);
 }
 
 .hero {
@@ -614,8 +615,8 @@ textarea {
     align-items: stretch;
     gap: 0;
     padding: 12px 22px 22px;
-    background: var(--white);
-    border-bottom: 1px solid var(--line);
+    background: rgba(6, 40, 74, 0.98);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   .site-nav.open {
